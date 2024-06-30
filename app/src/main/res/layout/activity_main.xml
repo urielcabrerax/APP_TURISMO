@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="5dp"
+    android:paddingStart="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="3dp"
+    android:paddingEnd="3dp"
+    android:paddingRight="5dp"
+    android:textAlignment="center"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoTurismo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:srcCompat="@raw/banner_horizontal" />
+
+    <TextView
+        android:id="@+id/guiaTurismo"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:text="Guia Turistica De Quevedo"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <ListView
+        android:id="@+id/listViewTurismo"
+        android:layout_width="371dp"
+        android:layout_height="527dp"
+        android:hint="Guia Turistica - Quevedo :)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
